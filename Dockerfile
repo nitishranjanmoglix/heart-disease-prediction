@@ -24,7 +24,7 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 COPY . .
 
 # Expose the ports the app runs on
-EXPOSE 5000 54321
+EXPOSE 8080
 
 # Command to run your application
 CMD ["python", "main-h2o.py"]
